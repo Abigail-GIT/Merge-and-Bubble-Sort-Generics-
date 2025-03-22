@@ -60,13 +60,13 @@ public class MergeAndBubbleSort {
         // Bubble Sort
         int[] bubbleSortedArray = array.clone();
         bubbleSort(bubbleSortedArray);
-        System.out.println("\nBubble Sorted Array:");
+        System.out.println("Bubble Sorted Array:");
         printArray(bubbleSortedArray);
 
         // Merge Sort
         int[] mergeSortedArray = array.clone();
         mergeSort(mergeSortedArray);
-        System.out.println("\nMerge Sorted Array:");
+        System.out.println("Merge Sorted Array:");
         printArray(mergeSortedArray);
     }
 
